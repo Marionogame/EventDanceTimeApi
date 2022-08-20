@@ -1,0 +1,11 @@
+const todos = require("./todos");
+const usuario = require("./usuarios");
+const producto = require("./productos");
+const login = require("./login");
+const user = require("./user");
+const group = require("./group");
+const event = require("./event");
+const judge = require("./judge");
+const publication = require("./publication");
+const qualification = require("./qualification");
+module.exports = [].concat(todos, usuario, producto, login, user, group, event, judge, publication, qualification);

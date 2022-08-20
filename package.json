@@ -1,0 +1,30 @@
+{
+  "name": "even_time_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^19.1.1",
+    "@hapi/inert": "^6.0.1",
+    "hapi": "^18.1.0",
+    "hapi-cors": "^1.0.3",
+    "hapi-paginate": "^0.4.1",
+    "joi": "^14.3.1",
+    "mysql2": "^2.2.5",
+    "path": "^0.12.7",
+    "sequelize": "^5.21.11",
+    "socket.io": "^4.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.1.3"
+  }
+}
